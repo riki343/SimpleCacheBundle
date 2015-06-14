@@ -1,0 +1,4 @@
+services:
+    simple_cache:
+        class:  riki34\SimpleCacheBundle\Services\SimpleCache
+        arguments: ["@doctrine.orm.entity_manager"]
