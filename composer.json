@@ -1,0 +1,30 @@
+{
+  "name" : "riki34/SimpleCacheBundle",
+  "description" : "A simple bundle for HTTP and FileSystem caching",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "riki34",
+    "email" : "vladislav.kosko@gmail.com"
+  }],
+  "keywords" : [
+    "riki34 riki343 symfony cache"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "Company\\DemoBundle" : ""
+    }
+  },
+  "target-dir" : "riki34/SimpleCacheBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "0.2-dev"
+    }
+  }
+}
